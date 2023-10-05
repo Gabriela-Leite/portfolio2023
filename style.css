@@ -578,12 +578,16 @@ footer{
     font-size: large;
 }
 
+footer a{
+    text-decoration: none;
+    color: var(--cor-clara);
+}
+
 @media screen and (min-width: 36em){
 
     .footer_logos{
         flex-direction: row;
         justify-content:space-evenly;
-        /* gap: 1.5em; */
     }
 
     .footer_creditos{
