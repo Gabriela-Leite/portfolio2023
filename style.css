@@ -560,12 +560,9 @@ h2{
         height: auto;    
     }
 
-
-    .video_text{
-        display: flex;
+    .main_depoimento_div{
+        max-width: 90%;
         margin: auto;
-        padding: 2rem 1em;
-        width: 80%;
     }
 }
 
@@ -587,7 +584,6 @@ footer{
     font-weight: 500;
     text-align: center;
     padding-bottom: .7em;
-    text-shadow: 0 .1em 1em  #7E84F2;
 }
 
 .footer_logos{
