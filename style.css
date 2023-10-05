@@ -222,6 +222,10 @@ h2{
     display: none;
 }
 
+.main_inicio_title{
+    text-shadow: 0 .1em 1em  #7E84F2;
+}
+
 @media screen and (min-width: 36em) {
 
     .main_inicio{
@@ -262,7 +266,7 @@ h2{
 }
 
 .main_desafios_title{
-    padding-bottom: .5em;
+    text-shadow: 0 .1em 1em  #7E84F2;
 }
 
 .main_desafios div{
@@ -276,6 +280,7 @@ h2{
     text-align: center;
     padding: 1em 1.5em;
     background-color: var(--cor-destaque);
+    box-shadow: 0 0 1.5em var(--cor-links);
 }
 
 .main_desafios h4{
@@ -315,9 +320,6 @@ h2{
         background-color: var(--cor-site);
         padding-top: 4em;
     }
-    .main_desafios h2{
-        padding-bottom: 1em;
-    }
 
     .main_desafios article{
         min-width: 10em;
@@ -342,12 +344,15 @@ h2{
     background-color: var(--cor-site);
 }
 
+.main_conquistas_title{
+    text-shadow: 0 .1em 1em  #7E84F2;
+}
+
 .container_slides{
     display: block;
     margin: auto;
     padding: 1.5rem;
     max-width: 36em;
-    background-color: var(--cor4);
 }
 
 .slide_img{
@@ -370,12 +375,12 @@ h2{
     width: .9em;
     margin: 0 .3em;
     border-radius: 50%;
-    background-color: #bbb;
+    background-color: var(--cor-links);
     transition: 0.6s ease;
 }
 
 .active, .slide_pos:hover{
-    background-color: #717171;
+    background-color: var(--cor-clara);
 
 }
 
@@ -403,6 +408,10 @@ h2{
     text-align: center;
     justify-content: center;
     padding: 3em 1em 3em;
+}
+
+.main_aprendizados_title{
+    text-shadow: 0 .1em 1em  #7E84F2;
 }
 
 .main_aprendizados p{
@@ -436,6 +445,10 @@ h2{
     padding: 3em 1em 3em;
 }
 
+.main_projetos_title{
+    text-shadow: 0 .1em 1em  #7E84F2;
+}
+
 .main_projetos div{
     margin: auto;
     width: 90%;
@@ -447,6 +460,7 @@ h2{
     text-align: center;
     padding-bottom: 1.5em;
     background-color: var(--cor-clara);
+    box-shadow: .5em .5em 1em #2D223C;
 }
 
 .main_projetos h4{
@@ -522,6 +536,10 @@ h2{
     padding: 3em 2em 3em;
 }
 
+.main_depoimento_title{
+    text-shadow: 0 .1em 1em  #7E84F2;
+}
+
 .main_depoimento video{
     max-width: 100%;
     height: auto;    
@@ -569,6 +587,7 @@ footer{
     font-weight: 500;
     text-align: center;
     padding-bottom: .7em;
+    text-shadow: 0 .1em 1em  #7E84F2;
 }
 
 .footer_logos{
@@ -578,6 +597,7 @@ footer{
     align-items: center;
     padding-bottom: 2em;
 }
+
 
 .logos_size{
     width: 4em;
