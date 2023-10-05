@@ -405,6 +405,12 @@ h2{
     padding: 3em 1em 3em;
 }
 
+.main_aprendizados p{
+    text-align: justify;
+    max-width: 90%;
+    margin: auto;
+}
+
 @media screen and (min-width: 36em){
     .main_aprendizados{
         background-color: var(--cor-site);
@@ -521,14 +527,24 @@ h2{
     height: auto;    
 }
 
+.video_text{
+    text-align: justify;
+}
+
 @media screen and (min-width: 36em) {
     .main_depoimento{
         background-color: var(--cor-site);
         padding-top: 4em;
     }
+
+    .main_depoimento video{
+        max-width: 65%;
+        height: auto;    
+    }
+
+
     .video_text{
         display: flex;
-        background-color: #869193;
         margin: auto;
         padding: 2rem 1em;
         width: 80%;
